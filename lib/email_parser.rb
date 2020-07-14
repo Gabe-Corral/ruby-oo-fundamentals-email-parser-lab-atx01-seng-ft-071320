@@ -10,9 +10,10 @@ class EmailAddressParser
   end
   
   def parse
-    email = @email.slice! ","
+    #email = @email.slice! ","
     email = @email.split
-    email
+    email.each do |i|
+      i.slice! ","
   end
   
 end
