@@ -12,7 +12,7 @@ class EmailAddressParser
   def parse
     emails = []
     @email.map do |i|
-      
+      i.split(", ")
     emails
   end
   
