@@ -11,7 +11,7 @@ class EmailAddressParser
   
   def parse
     emails = []
-    
+    @email
     emails
   end
   
