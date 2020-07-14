@@ -15,7 +15,7 @@ class EmailAddressParser
     email.each do |i|
       i.slice! ","
     end
-    email
+    email.uniq!
   end
   
 end
