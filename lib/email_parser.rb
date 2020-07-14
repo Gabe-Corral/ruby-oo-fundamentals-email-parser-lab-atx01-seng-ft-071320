@@ -13,6 +13,8 @@ class EmailAddressParser
     emails = []
     @email.map do |i|
       i.split(", ")
+      emails.push(i)
+    end
     emails
   end
   
