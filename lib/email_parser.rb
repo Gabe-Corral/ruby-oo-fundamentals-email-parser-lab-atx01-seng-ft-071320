@@ -14,6 +14,8 @@ class EmailAddressParser
     email = @email.split
     email.each do |i|
       i.slice! ","
+    end
+    email
   end
   
 end
