@@ -6,10 +6,12 @@
 class EmailAddressParser
   attr_accessor :email
   def initialize(email)
-    
+    email
   end
   
   def parse
-    
+    emails = []
+    emails.push(initialize)
+    emails
   end
 end
