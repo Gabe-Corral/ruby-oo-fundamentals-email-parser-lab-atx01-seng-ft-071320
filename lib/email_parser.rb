@@ -11,7 +11,7 @@ class EmailAddressParser
   
   def parse
     emails = []
-    @email.map do |i|
+    @email.each do |i|
       i.split(", ")
       emails.push(i)
     end
