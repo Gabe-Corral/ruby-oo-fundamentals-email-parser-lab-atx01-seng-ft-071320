@@ -9,5 +9,7 @@ class EmailAddressParser
   end
   
   def parse
-    
+    emails = []
+    emails.push(email)
+  end
 end
