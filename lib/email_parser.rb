@@ -11,7 +11,8 @@ class EmailAddressParser
   
   def parse
     emails = []
-    @email
+    @email.map do |i|
+      
     emails
   end
   
