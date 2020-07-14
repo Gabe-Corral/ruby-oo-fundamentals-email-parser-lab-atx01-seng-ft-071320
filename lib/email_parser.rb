@@ -11,10 +11,8 @@ class EmailAddressParser
   
   def parse
     emails = []
-    @email.each do |i|
-      i.split(", ")
-      emails.push(i)
-    end
+    email = @email.split(", ")
+    emails.push(email)
     emails
   end
   
